@@ -57,6 +57,8 @@ function handleImport() {
 </script>
 
 <template>
+  <div class="bg-orb-3" />
+
   <AppHeader
     :view-mode="viewMode"
     @toggle-view="(v: ViewMode) => viewMode = v"
